@@ -6,13 +6,31 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7033D95D2D4215F600554685 /* EkaMedicalRecordsUI in Frameworks */ = {isa = PBXBuildFile; productRef = 7033D95C2D4215F600554685 /* EkaMedicalRecordsUI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		7022B5A42D40FD1D00B5238F /* RecordsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7033D95A2D42149300554685 /* EkaMedicalRecordsUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = EkaMedicalRecordsUI; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		70B162572D424EA300BADD3D /* Exceptions for "RecordsApp" folder in "RecordsApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 7022B5A32D40FD1D00B5238F /* RecordsApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		7022B5A62D40FD1D00B5238F /* RecordsApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				70B162572D424EA300BADD3D /* Exceptions for "RecordsApp" folder in "RecordsApp" target */,
+			);
 			path = RecordsApp;
 			sourceTree = "<group>";
 		};
@@ -23,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7033D95D2D4215F600554685 /* EkaMedicalRecordsUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,7 +51,9 @@
 		7022B59B2D40FD1D00B5238F = {
 			isa = PBXGroup;
 			children = (
+				7033D95A2D42149300554685 /* EkaMedicalRecordsUI */,
 				7022B5A62D40FD1D00B5238F /* RecordsApp */,
+				7033D95B2D4215F600554685 /* Frameworks */,
 				7022B5A52D40FD1D00B5238F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +64,13 @@
 				7022B5A42D40FD1D00B5238F /* RecordsApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7033D95B2D4215F600554685 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -65,6 +93,7 @@
 			);
 			name = RecordsApp;
 			packageProductDependencies = (
+				7033D95C2D4215F600554685 /* EkaMedicalRecordsUI */,
 			);
 			productName = RecordsApp;
 			productReference = 7022B5A42D40FD1D00B5238F /* RecordsApp.app */;
@@ -254,6 +283,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RecordsApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to camera to upload records";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to gallery to upload records";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -272,10 +304,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.RecordsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
@@ -293,6 +326,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RecordsApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to camera to upload records";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to gallery to upload records";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -311,10 +347,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.RecordsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
@@ -341,6 +378,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7033D95C2D4215F600554685 /* EkaMedicalRecordsUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EkaMedicalRecordsUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7022B59C2D40FD1D00B5238F /* Project object */;
 }

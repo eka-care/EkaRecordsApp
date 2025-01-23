@@ -4,3 +4,9 @@
 [submodule "RecordsApp/EkaMedicalRecordsCore"]
 	path = RecordsApp/EkaMedicalRecordsCore
 	url = https://github.com/eka-care/EkaMedicalRecordsCore.git
+[submodule "EkaMedicalRecordsCore"]
+	path = EkaMedicalRecordsCore
+	url = https://github.com/eka-care/EkaMedicalRecordsCore.git
+[submodule "EkaMedicalRecordsUI"]
+	path = EkaMedicalRecordsUI
+	url = https://github.com/eka-care/EkaMedicalRecordsUI.git

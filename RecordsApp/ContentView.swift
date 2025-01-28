@@ -25,7 +25,9 @@ struct ContentView: View {
         Text("Hello, world!")
         
         NavigationLink(
-          destination: RecordsGridListView().environment(\.managedObjectContext, recordsRepo.databaseManager.container.viewContext)
+          destination: RecordsView(
+            recordPresentationState: .picker
+          ).environment(\.managedObjectContext, recordsRepo.databaseManager.container.viewContext)
         ) {
           Text("Go to Records")
             .foregroundColor(.white)

@@ -26,9 +26,9 @@ struct ContentView: View {
         
         NavigationLink(
           destination: RecordsView(
-            recordPresentationState: .displayAll,
-            didSelectPickerImages: { images in
-              print("Selected images: \(images)")
+            recordPresentationState: .picker,
+            didSelectPickerDataObjects: { objects in
+              print("Selected objects: \(objects)")
             }
           ).environment(\.managedObjectContext, recordsRepo.databaseManager.container.viewContext)
         ) {

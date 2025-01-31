@@ -17,7 +17,7 @@ struct ContentView: View {
   // MARK: - Body
   
   var body: some View {
-    NavigationView { // Add NavigationView here
+    NavigationStack { // Add NavigationView here
       VStack {
         Image(systemName: "globe")
           .imageScale(.large)
@@ -26,7 +26,8 @@ struct ContentView: View {
         
         NavigationLink(
           destination: RecordsView(
-            recordPresentationState: .picker,
+            recordsRepo: recordsRepo,
+            recordPresentationState: .displayAll,
             didSelectPickerDataObjects: { objects in
               print("Selected objects: \(objects)")
             }

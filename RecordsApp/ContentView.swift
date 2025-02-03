@@ -27,7 +27,7 @@ struct ContentView: View {
         NavigationLink(
           destination: RecordsView(
             recordsRepo: recordsRepo,
-            recordPresentationState: .displayAll,
+            recordPresentationState: .picker,
             didSelectPickerDataObjects: { objects in
               print("Selected objects: \(objects)")
             }

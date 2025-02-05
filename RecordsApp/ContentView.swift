@@ -26,11 +26,7 @@ struct ContentView: View {
         
         NavigationLink(
           destination: RecordsView(
-            recordsRepo: recordsRepo,
-            recordPresentationState: .picker,
-            didSelectPickerDataObjects: { objects in
-              print("Selected objects: \(objects)")
-            }
+            recordsRepo: recordsRepo
           ).environment(\.managedObjectContext, recordsRepo.databaseManager.container.viewContext)
         ) {
           Text("Go to Records")

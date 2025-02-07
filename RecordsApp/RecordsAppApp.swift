@@ -35,6 +35,7 @@ struct RecordsAppApp: App {
 extension RecordsAppApp {
   func registerUISdk() {
     registerFonts()
+    registerTitle()
   }
   
   private func registerFonts() {
@@ -43,6 +44,10 @@ extension RecordsAppApp {
     } catch {
       debugPrint("Failed to fetch fonts")
     }
+  }
+  
+  private func registerTitle() {
+    InitConfiguration.shared.recordsTitle = "Amit's records"
   }
 }
 

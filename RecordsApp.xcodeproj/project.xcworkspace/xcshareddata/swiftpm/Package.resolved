@@ -1,5 +1,5 @@
 {
-  "originHash" : "bb6e21148bcad0bc063be3533d7c83f0fd145c48bb98f4fcee68426a9ffc606f",
+  "originHash" : "0c9c1a6671e702159f2ce0b4ccfd0d8d0859815ae02eaf6d2e23dfcace30d0d5",
   "pins" : [
     {
       "identity" : "alamofire",
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/eka-care/EkaMedicalRecordsCore.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "f143cfc9f3f4428a303d9cfab6f0cb99d5adb2ab"
+        "revision" : "a286758b4327f03761952bd3cc5c8aa5e59033bd",
+        "version" : "1.0.2"
       }
     },
     {
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/eka-care/proto-contracts.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "bac1201cc305c453e913940c601467004998576c"
+        "revision" : "bac1201cc305c453e913940c601467004998576c",
+        "version" : "1.29.30"
       }
     },
     {
@@ -42,8 +42,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SDWebImage/SDWebImageSwiftUI.git",
       "state" : {
-        "revision" : "53573d6dd017e354c0e7d8f1c86b77ef1383c996",
-        "version" : "2.2.7"
+        "revision" : "451c6dfd5ecec2cf626d1d9ca81c2d4a60355172",
+        "version" : "3.1.3"
       }
     },
     {

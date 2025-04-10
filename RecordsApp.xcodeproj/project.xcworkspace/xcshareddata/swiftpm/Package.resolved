@@ -1,5 +1,5 @@
 {
-  "originHash" : "0c9c1a6671e702159f2ce0b4ccfd0d8d0859815ae02eaf6d2e23dfcace30d0d5",
+  "originHash" : "6f7440078a7c73e75eedfe110bdaa589722e40e5b809e629980fcf1a1c133d33",
   "pins" : [
     {
       "identity" : "alamofire",
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/eka-care/EkaMedicalRecordsCore.git",
       "state" : {
-        "revision" : "a286758b4327f03761952bd3cc5c8aa5e59033bd",
-        "version" : "1.0.2"
+        "branch" : "fix/record-document-types",
+        "revision" : "7bee161d29a33b161d54e15a3b09577c67c82da9"
       }
     },
     {

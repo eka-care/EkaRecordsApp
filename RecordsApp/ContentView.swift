@@ -13,6 +13,7 @@ struct ContentView: View {
   // MARK: - Properties
   
   let recordsRepo = RecordsRepo()
+  @State private var isShowingSheet = false
   
   // MARK: - Body
   
@@ -24,16 +25,22 @@ struct ContentView: View {
           .foregroundStyle(.tint)
         Text("Hello, world!")
         
-        NavigationLink(
-          destination: RecordsView(
-            recordsRepo: recordsRepo
-          ).environment(\.managedObjectContext, recordsRepo.databaseManager.container.viewContext)
-        ) {
+        Button(action: {
+          isShowingSheet = true
+        }) {
           Text("Go to Records")
             .foregroundColor(.white)
             .padding()
             .background(Color.blue)
             .cornerRadius(8)
+        }
+        .sheet(isPresented: $isShowingSheet) {
+          NavigationStack {
+            RecordsView(
+              recordsRepo: recordsRepo
+            )
+            .environment(\.managedObjectContext, recordsRepo.databaseManager.container.viewContext)
+          }
         }
       }
       .padding()

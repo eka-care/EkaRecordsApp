@@ -63,6 +63,7 @@ extension RecordsAppApp {
     CoreInitConfigurations.shared.authToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJkb2N0b3ItYXBwLWlvcyIsImItaWQiOiJiLTE2NzUzNTQ3NzAwMTQyNyIsImRvYiI6IjIwMDAtMDQtMDciLCJkb2MtaWQiOiIxNjc1MzU0NzcwMDE0MjciLCJleHAiOjE3NDMxMzc1MDksImZuIjoiQXJ5YSBWYXNoaXNodCIsImdlbiI6Ik0iLCJpYXQiOjE3NDMxMzM5MDksImlzLWQiOnRydWUsImlzcyI6ImFnbyIsIm1vYiI6Iis5MTg5NjgzNDk3NDQiLCJvaWQiOiIxNjc1MzU0NzcwMDE0MjciLCJwIjoiUEFTU19fNDk5IiwicHAiOnsiYyI6IjEwIiwiZSI6IjE3MzYwMTU0MDAiLCJ0IjoiMCJ9LCJ0eXBlIjoxLCJ1dWlkIjoiZWNiNTJmZDctZGM4Yy00YTg0LWEyZTQtNmZiMThiMDVjOGEwIn0.iCsYZ5luSRAGULASatXPse9CA9fPRyITqoW1uALDWr4"
     CoreInitConfigurations.shared.refreshToken = "28e24d2b74024f37b8a0867031e8ac56"
     CoreInitConfigurations.shared.primaryFilterID = "173780145631397"
+    CoreInitConfigurations.shared.filterID = ["173780145631397"]
   }
   
   private func setDelegate() {

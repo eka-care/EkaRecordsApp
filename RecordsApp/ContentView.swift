@@ -34,7 +34,7 @@ struct ContentView: View {
             .background(Color.blue)
             .cornerRadius(8)
         }
-        .sheet(isPresented: $isShowingSheet) {
+        .fullScreenCover(isPresented: $isShowingSheet) {
           NavigationStack {
             RecordsView(
               recordsRepo: recordsRepo

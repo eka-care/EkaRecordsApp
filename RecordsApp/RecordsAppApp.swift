@@ -60,10 +60,10 @@ extension RecordsAppApp {
   }
   
   private func registerAuthToken() {
-    CoreInitConfigurations.shared.authToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJkb2N0b3ItYXBwLWlvcyIsImItaWQiOiJiLTE2NzUzNTQ3NzAwMTQyNyIsImRvYiI6IjIwMDAtMDQtMDciLCJkb2MtaWQiOiIxNjc1MzU0NzcwMDE0MjciLCJleHAiOjE3NDMxMzc1MDksImZuIjoiQXJ5YSBWYXNoaXNodCIsImdlbiI6Ik0iLCJpYXQiOjE3NDMxMzM5MDksImlzLWQiOnRydWUsImlzcyI6ImFnbyIsIm1vYiI6Iis5MTg5NjgzNDk3NDQiLCJvaWQiOiIxNjc1MzU0NzcwMDE0MjciLCJwIjoiUEFTU19fNDk5IiwicHAiOnsiYyI6IjEwIiwiZSI6IjE3MzYwMTU0MDAiLCJ0IjoiMCJ9LCJ0eXBlIjoxLCJ1dWlkIjoiZWNiNTJmZDctZGM4Yy00YTg0LWEyZTQtNmZiMThiMDVjOGEwIn0.iCsYZ5luSRAGULASatXPse9CA9fPRyITqoW1uALDWr4"
-    CoreInitConfigurations.shared.refreshToken = "28e24d2b74024f37b8a0867031e8ac56"
-    CoreInitConfigurations.shared.primaryFilterID = "173780145631397"
-    CoreInitConfigurations.shared.filterID = ["173780145631397"]
+    CoreInitConfigurations.shared.authToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJkb2N0b3ItYXBwLWlvcyIsImItaWQiOiI3NzI3MjMxOTE5MzY0MyIsImNjIjp7fSwiZXhwIjoxNzUxOTczODQ1LCJmbiI6IkRpdnllc2giLCJnZW4iOiJNIiwiaWF0IjoxNzUxOTcwMjQ1LCJpZHAiOiJtb2IiLCJpc3MiOiJlbXIuZWthLmNhcmUiLCJsbiI6IkppdmFuaSIsIm9pZCI6IjE3MzgzMzE4ODk4MjU5NSIsInByaSI6dHJ1ZSwiciI6IklOIiwidXVpZCI6ImZiMDExYjE0LTRjMzAtNGNjNy05MDkzLWZjZWQ4MGVmNDhmYyJ9.3kMDV8u2iozxIvyYVaSoLsxQO_3N0HlaborqtlQcQPk"
+    CoreInitConfigurations.shared.refreshToken = "21eb5e80a22c4514b0d79e448e82eca6"
+    CoreInitConfigurations.shared.primaryFilterID = "173891047811776"
+    CoreInitConfigurations.shared.filterID = ["173891047811776"]
   }
   
   private func setDelegate() {

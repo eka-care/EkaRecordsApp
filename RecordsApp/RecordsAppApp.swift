@@ -8,6 +8,7 @@
 import SwiftUI
 import EkaMedicalRecordsUI
 import EkaMedicalRecordsCore
+import EkaUI
 
 @main
 struct RecordsAppApp: App {
@@ -42,6 +43,7 @@ extension RecordsAppApp {
   private func registerFonts() {
     do {
       try Fonts.registerAllFonts()
+      EkaUI.registerFonts()
     } catch {
       debugPrint("Failed to fetch fonts")
     }
@@ -60,10 +62,10 @@ extension RecordsAppApp {
   }
   
   private func registerAuthToken() {
-    CoreInitConfigurations.shared.authToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJkb2N0b3ItYXBwLWlvcyIsImItaWQiOiI3NzI3MjMxOTE5MzY0MyIsImNjIjp7fSwiZXhwIjoxNzUxOTczODQ1LCJmbiI6IkRpdnllc2giLCJnZW4iOiJNIiwiaWF0IjoxNzUxOTcwMjQ1LCJpZHAiOiJtb2IiLCJpc3MiOiJlbXIuZWthLmNhcmUiLCJsbiI6IkppdmFuaSIsIm9pZCI6IjE3MzgzMzE4ODk4MjU5NSIsInByaSI6dHJ1ZSwiciI6IklOIiwidXVpZCI6ImZiMDExYjE0LTRjMzAtNGNjNy05MDkzLWZjZWQ4MGVmNDhmYyJ9.3kMDV8u2iozxIvyYVaSoLsxQO_3N0HlaborqtlQcQPk"
-    CoreInitConfigurations.shared.refreshToken = "21eb5e80a22c4514b0d79e448e82eca6"
-    CoreInitConfigurations.shared.primaryFilterID = "173891047811776"
-    CoreInitConfigurations.shared.filterID = ["173891047811776"]
+    CoreInitConfigurations.shared.authToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJkb2N0b3ItYXBwLWlvcyIsImItaWQiOiI3MTc0ODk0ODI3MDc3NDk1IiwiY2MiOnt9LCJkb2IiOiIyMDAwLTAxLTAxIiwiZXhwIjoxNzUyMDQ4NzQxLCJmbiI6Ikdvb2dsZSIsImdlbiI6Ik0iLCJpYXQiOjE3NTIwNDUxNDEsImlkcCI6Im1vYiIsImlzcyI6ImVtci5la2EuY2FyZSIsImxuIjoiVGVzdGluZyIsIm9pZCI6IjE3NDg5NDgyNzA5NzgxMSIsInByaSI6dHJ1ZSwicHMiOiJBRCIsInIiOiJJTiIsInMiOiJEciIsInV1aWQiOiI5ZWZjZWNkMS0xOThkLTQyZWQtYjQ0MC1mYjg2MzFkNzE2M2UifQ.DvEEUd-hkNZi_iDp6KhaHWIbUZwY3ybBE8Jf6FvLPqs"
+    CoreInitConfigurations.shared.refreshToken = "965fce290f2a4df5897343b5014c03df"
+    CoreInitConfigurations.shared.primaryFilterID = "174954166695563"
+    CoreInitConfigurations.shared.filterID = ["174954166695563"]
   }
   
   private func setDelegate() {

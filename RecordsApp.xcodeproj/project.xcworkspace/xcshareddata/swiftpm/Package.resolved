@@ -1,5 +1,5 @@
 {
-  "originHash" : "137f11a533ecc326460052588d7a5b00ecc641acecf21a9e674fc162e8d63a7e",
+  "originHash" : "77bc8872785128cf6d02fa8b252d65aa13e542d5e01002a59ba34d69e4b38c5f",
   "pins" : [
     {
       "identity" : "alamofire",
@@ -15,8 +15,44 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/eka-care/EkaMedicalRecordsCore.git",
       "state" : {
-        "revision" : "8463c092b73e62fb245ea758222393cc39e3f236",
-        "version" : "1.0.21"
+        "revision" : "b24e6d182222954540d042316f7d50b5dfed8f0e",
+        "version" : "1.0.24"
+      }
+    },
+    {
+      "identity" : "ekaui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/eka-care/EkaUI.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "cdbe751bbb6afa3abc1581ddb8222eeabadb62ff"
+      }
+    },
+    {
+      "identity" : "eureka",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/xmartlabs/Eureka.git",
+      "state" : {
+        "revision" : "028ef8e3191a256b8f6b8bb6b9496efcb0762dbc",
+        "version" : "5.5.0"
+      }
+    },
+    {
+      "identity" : "jgprogresshud",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JonasGessner/JGProgressHUD",
+      "state" : {
+        "branch" : "master",
+        "revision" : "6336c426fb147ee19c15252eaf363f29720c3eb5"
+      }
+    },
+    {
+      "identity" : "lottie-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-ios.git",
+      "state" : {
+        "revision" : "a004050748dc197c56256a14dca49a035d74726c",
+        "version" : "4.5.2"
       }
     },
     {
@@ -35,6 +71,15 @@
       "state" : {
         "revision" : "53573d6dd017e354c0e7d8f1c86b77ef1383c996",
         "version" : "2.2.7"
+      }
+    },
+    {
+      "identity" : "skyfloatinglabeltextfield",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Skyscanner/SkyFloatingLabelTextField",
+      "state" : {
+        "revision" : "a0750ebbc7311f3b3debf99c5e59338e854afa59",
+        "version" : "4.0.0"
       }
     },
     {

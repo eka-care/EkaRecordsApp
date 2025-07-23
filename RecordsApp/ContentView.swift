@@ -12,7 +12,6 @@ import EkaMedicalRecordsCore
 struct ContentView: View {
   // MARK: - Properties
   
-  let recordsRepo = RecordsRepo()
   @State private var isShowingSheet = false
   
   // MARK: - Body
@@ -36,10 +35,7 @@ struct ContentView: View {
         }
         .fullScreenCover(isPresented: $isShowingSheet) {
           NavigationStack {
-            RecordsView(
-              recordsRepo: recordsRepo
-            )
-            .environment(\.managedObjectContext, recordsRepo.databaseManager.container.viewContext)
+            RecordContainerView()
           }
         }
       }

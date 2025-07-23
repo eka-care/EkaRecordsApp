@@ -1,5 +1,5 @@
 {
-  "originHash" : "77bc8872785128cf6d02fa8b252d65aa13e542d5e01002a59ba34d69e4b38c5f",
+  "originHash" : "1d3a866d7f45fb554bcb34485428bf747353bc9bbd867d6964f92ad809a7aced",
   "pins" : [
     {
       "identity" : "alamofire",
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/eka-care/EkaMedicalRecordsCore.git",
       "state" : {
-        "revision" : "b24e6d182222954540d042316f7d50b5dfed8f0e",
-        "version" : "1.0.24"
+        "branch" : "feature/cases-databse-added",
+        "revision" : "cdc62ec86f806fa40e76d031b6eea90d218305ee"
       }
     },
     {
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/eka-care/EkaUI.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "cdbe751bbb6afa3abc1581ddb8222eeabadb62ff"
+        "branch" : "fix/color-token-fixes",
+        "revision" : "8f8f329e6dd67e5d012746093c84fa6c207b6a60"
       }
     },
     {

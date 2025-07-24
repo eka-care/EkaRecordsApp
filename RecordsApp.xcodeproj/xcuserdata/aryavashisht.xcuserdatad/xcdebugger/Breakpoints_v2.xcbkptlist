@@ -7,33 +7,33 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F2E5217D-9E32-4CD5-B6B4-BAE5B8635CC6"
+            uuid = "DC31A78F-11EF-4BF1-A44B-B7A0CAB6B863"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "EkaMedicalRecordsUI/Sources/Views/Details/RecordView.swift"
+            filePath = "EkaMedicalRecordsUI/Sources/Views/Edit/EditBottomSheetView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
-            landmarkName = "body"
-            landmarkType = "24">
+            startingLineNumber = "180"
+            endingLineNumber = "180"
+            landmarkName = "saveDocumentDetails()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "697F4E5A-AF02-4307-83DE-4BDBF3343F6D"
+            uuid = "9EA8F27D-1FE8-45DA-86E6-19203AD0E8A0"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "EkaMedicalRecordsUI/Sources/Views/Details/RecordView.swift"
+            filePath = "../../Library/Developer/Xcode/DerivedData/RecordsApp-awwrjsmurummwpdweizfyjhuskwr/SourcePackages/checkouts/EkaMedicalRecordsCore/Sources/DatabaseLayer/Records/RecordsRepo+NetworkHelpers.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
-            landmarkName = "body"
-            landmarkType = "24">
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "editDocument(documentID:documentDate:documentType:documentFilterId:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

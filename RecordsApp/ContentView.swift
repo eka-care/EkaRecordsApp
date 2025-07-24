@@ -17,30 +17,28 @@ struct ContentView: View {
   // MARK: - Body
   
   var body: some View {
-    NavigationStack { // Add NavigationView here
-      VStack {
-        Image(systemName: "globe")
-          .imageScale(.large)
-          .foregroundStyle(.tint)
-        Text("Hello, world!")
-        
-        Button(action: {
-          isShowingSheet = true
-        }) {
-          Text("Go to Records")
-            .foregroundColor(.white)
-            .padding()
-            .background(Color.blue)
-            .cornerRadius(8)
-        }
-        .fullScreenCover(isPresented: $isShowingSheet) {
-          NavigationStack {
-            RecordContainerView()
-          }
+    VStack {
+      Image(systemName: "globe")
+        .imageScale(.large)
+        .foregroundStyle(.tint)
+      Text("Hello, world!")
+      
+      Button(action: {
+        isShowingSheet = true
+      }) {
+        Text("Go to Records")
+          .foregroundColor(.white)
+          .padding()
+          .background(Color.blue)
+          .cornerRadius(8)
+      }
+      .fullScreenCover(isPresented: $isShowingSheet) {
+        NavigationStack {
+          RecordContainerView(recordPresentationState: .displayAll)
         }
       }
-      .padding()
     }
+    .padding()
   }
 }
 
